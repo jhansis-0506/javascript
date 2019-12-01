@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Number</h1>
+<p id="n1"></p>
+</body>
+<script>
+//Crear un HTML que contenga un script en el cual se definirá un método llamado metodoResta a través de la propiedad Number.prototype, y tendrá como función restar 20 a una variable numérica. Invocar el metodoResta y aplicarlo sobre una variable numérica y mostrar su resultado en pantalla.
+
+Number.prototype.metodoResta=function(){//permite crear un nuevo metodo para manipular numeros
+return this-20;	
+}
+var numero=150;
+document.getElementById("n1").innerHTML=numero.metodoResta();
+</script>
+</html>

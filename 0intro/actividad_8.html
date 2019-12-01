@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<h1>Objetos</h1>
+	
+	<h1>Vehiculo 1</h1>
+	<p id="placa1"></p>
+	<p id="marca1"></p>
+	<p id="modelo1"></p>
+
+	<h1>Vehiculo 2</h1>
+	<p id="placa2"></p>
+	<p id="marca2"></p>
+	<p id="modelo2"></p>
+
+	<h1>Vehiculo 3</h1>
+	<p id="placa3"></p>
+	<p id="marca3"></p>
+	<p id="modelo3"></p>
+</body>
+<script>
+//primera foram para crear un objeto
+var Vehiculo1={
+	placa: "2359 SDE",
+	marca: "Suzuki",
+	modelo: 2015
+}
+
+//segunda forma para crear un objeto
+var Vehiculo2=new Object();
+Vehiculo2.placa = "4587 ERQ";
+Vehiculo2.marca = "Toyota";
+Vehiculo2.modelo = 2016;
+
+//tercera forma para crear un objeto
+function Vehiculo3(placa,marca,modelo){
+	this.placa = placa;
+	this.marca = marca;
+	this.modelo = modelo;
+}
+	var Vehiculo3 = new Vehiculo3("3512 KJU","Datsun",1945);
+	//accediendo a las propiedades de los objetos para mostrarlos
+
+	document.getElementById("i1").innerHTML = Vehiculo1.placa;
+	document.getElementById("n1").innerHTML = Vehiculo1.marca;
+	document.getElementById("e1").innerHTML = Vehiculo1.modelo;
+
+	document.getElementById("i2").innerHTML = Vehiculo2.placa;
+	document.getElementById("n2").innerHTML = Vehiculo2.marca;
+	document.getElementById("e2").innerHTML = Vehiculo2.modelo;
+
+	document.getElementById("i3").innerHTML = Vehiculo3.placa;
+	document.getElementById("n3").innerHTML = Vehiculo3.marca;
+	document.getElementById("e3").innerHTML = Vehiculo3.modelo;
+
+
+</script>
+</html>

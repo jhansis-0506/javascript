@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>FUNCION DATE</h1>
+<p id="a1"></p>
+<p id="a2"></p>
+<p id="a3"></p>
+<h1>Metodos</h1>
+<p id="a4"></p>
+<p id="a5"></p>
+<p id="a6"></p>
+<p id="a7"></p>
+<p id="a8"></p>
+<p id="a9"></p>
+<p id="a10"></p>
+<p id="a11"></p>
+</body>
+<script>
+var date1=new Date();
+var date2=new Date("December 26, 2014 12:30:20");
+var date3=new Date(2015,0,5)//5 enero 2015
+
+document.getElementById("d1").innerHTML=date1;
+document.getElementById("d2").innerHTML=date2;
+document.getElementById("d3").innerHTML=date3;
+
+//metodos
+document.getElementById("d4").innerHTM8=date1.getFullYear();
+date1.setFullYear(2018);
+document.getElementById("d5").innerHTML=date1.getFullYear();
+
+document.getElementById("d6").innerHTML=date2.getMonth();
+date2.setMonth(5);
+document.getElementById("d7").innerHTML=date2.getMonth();
+
+document.getElementById("d8").innerHTML=date3.getDate();
+date3.setDate(19);
+document.getElementById("d9").innerHTMLdate3.getDate();
+
+document.getElementById("d10").innerHTML=date1.getHours();
+date1.setHours(4);
+document.getElementById("d11").innerHTML=date1.getHours();
+</script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>JSON Estudiante</h1>
+	<p id="mayor"></p>
+	<button onclick="mostrarEdadMayor()">Mostrar Edad Mayor</button>
+	<p id="personas"></p>
+	<button onclick="mostrarPersonas()">Mostrar Personas</button>
+</body>   
+<script>
+/*
+Crear un documento HTML que contenga un script donde se defina un  JSON llamado ventas y tenga 10 objetos con las propiedades código de tipo cadena de texto y valor de tipo numérico. La idea es crear dos botones; el primero con el texto “Mostrar Ventas”, cuya acción será recorrer el JSON y mostrar los objetos con sus respectivas propiedades; el segundo botón con texto “Mostrar Total Ventas”, cuya acción será mostrar la sumatoria total de las propiedades valor de los objetos ventas.
+*/
+
+var jsonText = '{"personas":['+
+'{"codigo":"Julio Manrique","edad":"32"},'+
+'{"codigo":"Luisa Rioja","edad":"15"},'+
+'{"codigo":"Mario Gonzales","edad":"16"},'+
+'{"codigo":"Raul Morales","edad":"35"},'+
+'{"codigo":"Alberto Mamani","edad":"17"},'+
+'{"codigo":"Francisco Fernandez","edad":"29"},'+
+'{"codigo":"Mariana Quispe","edad":"12"},'+
+'{"codigo":"Luis Fernandez","edad":"44"},'+
+'{"codigo":"Luis Vargas","edad":"20"},'+
+'{"codigo":"Pedro Ramirez","edad":"25"}'+']}';
+var jsObj=JSON.parse(jsonText);
+var texto='';
+function leerJSON(json){
+
+	for (var i=0;i<json.personas.length;i++){
+		texto+='codigo: '+json.personas[i].codigo+' - Edad: '+json.personas[i].edad+'<br>';		
+	}
+	document.getElementById("personas").innerHTML=texto;
+}
+function calcularEdadMayor(json) {
+            var out = "-----------Edad Mayor-----------<br>";
+            var edadMayor = json.personas[0].edad;
+            var pos = 0;
+            var aux = "";
+            for (i = 0; i < json.personas.length; i++) {
+
+                if (json.personas[i].edad >= 18) {
+                    edadMayor = json.personas[i].edad;
+                    pos = i;
+                    aux=aux+json.personas[pos].codigo+"<br>";
+                }
+            }
+            document.getElementById("mayor").innerHTML = "Las personas con mayoría de edad son: " + aux;
+        }
+	function mostrarPersonas(){
+		leerJSON(jsObj);	
+	}
+	function mostrarEdadMayor() {
+		calcularEdadMayor(jsObj);
+	}
+</script>
+</html>

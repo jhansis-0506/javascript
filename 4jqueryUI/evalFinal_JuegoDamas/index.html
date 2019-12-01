@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Juego de Damas</title>
+
+	<link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+
+<body>
+	<div id="content_board">
+		<h1>Juego de Damas</h1>
+			<div class="message">
+					<span class="message">Turno : </span><span class="ficha">Azul</span>
+				</div>
+		<div id="board">
+			<div class="row">
+				<div id="c07" class="cell black"></div>
+				<div id="c17" class="cell white">
+					<div class="option" id="o17"></div>
+					<div class="signed white" id="i17">
+						<img src="images/red.png" alt="" class="dama-roja">
+					</div>
+				</div>
+				<div id="c27" class="cell black"></div>
+				<div id="c37" class="cell white">
+					<div class="option" id="o37"></div>
+					<div class="signed white" id="i37"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c47" class="cell black"></div>
+				<div id="c57" class="cell white">
+					<div class="option" id="o57"></div>
+					<div class="signed white" id="i57"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c67" class="cell black"></div>
+				<div id="c77" class="cell white">
+					<div class="option" id="o77"></div>
+					<div class="signed white" id="i77">
+						<img src="images/red.png" alt="" class="dama-roja">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="c06" class="cell white">
+					<div class="option" id="o06"></div>
+					<div class="signed white" id="i06"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c16" class="cell black"></div>
+				<div id="c26" class="cell white">
+					<div class="option" id="o26"></div>
+					<div class="signed white" id="i26"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c36" class="cell black"></div>
+				<div id="c46" class="cell white">
+					<div class="option" id="o46"></div>
+					<div class="signed white" id="i46"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c56" class="cell black"></div>
+				<div id="c66" class="cell white">
+					<div class="option" id="o66"></div>
+					<div class="signed white" id="i66"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c76" class="cell black"></div>
+			</div>
+			<div class="row">
+				<div id="c05" class="cell black"></div>
+				<div id="c15" class="cell white">
+					<div class="option" id="o15"></div>
+					<div class="signed white" id="i15"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c25" class="cell black"></div>
+				<div id="c35" class="cell white">
+					<div class="option" id="o35"></div>
+					<div class="signed white" id="i35"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c45" class="cell black"></div>
+				<div id="c55" class="cell white">
+					<div class="option" id="o55"></div>
+					<div class="signed white" id="i55"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+				<div id="c65" class="cell black"></div>
+				<div id="c75" class="cell white">
+					<div class="option" id="o75"></div>
+					<div class="signed white" id="i75"><img src="images/red.png" alt="" class="dama-roja"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="c04" class="cell white">
+					<div class="option" id="o04"></div>
+					<div class="signed white" id="i04"></div>
+				</div>
+				<div id="c14" class="cell black"></div>
+				<div id="c24" class="cell white">
+					<div class="option" id="o24"></div>
+					<div class="signed white" id="i24"></div>
+				</div>
+				<div id="c34" class="cell black"></div>
+				<div id="c44" class="cell white">
+					<div class="option" id="o44"></div>
+					<div class="signed white" id="i44"></div>
+				</div>
+				<div id="c54" class="cell black"></div>
+				<div id="c64" class="cell white">
+					<div class="option" id="o64"></div>
+					<div class="signed white" id="i64"></div>
+				</div>
+				<div id="c74" class="cell black"></div>
+			</div>
+			<div class="row">
+				<div id="c03" class="cell black"></div>
+				<div id="c13" class="cell white">
+					<div class="option" id="o13"></div>
+					<div class="signed white" id="i13"></div>
+				</div>
+				<div id="c23" class="cell black"></div>
+				<div id="c33" class="cell white">
+					<div class="option" id="o33"></div>
+					<div class="signed white" id="i33"></div>
+				</div>
+				<div id="c43" class="cell black"></div>
+				<div id="c53" class="cell white">
+					<div class="option" id="o53"></div>
+					<div class="signed white" id="i53"></div>
+				</div>
+				<div id="c63" class="cell black"></div>
+				<div id="c73" class="cell white">
+					<div class="option" id="o73"></div>
+					<div class="signed white" id="i73"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="c02" class="cell white">
+					<div class="option" id="o02"></div>
+					<div class="signed white" id="i02"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c12" class="cell black"></div>
+				<div id="c22" class="cell white">
+					<div class="option" id="o22"></div>
+					<div class="signed white" id="i22"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c32" class="cell black"></div>
+				<div id="c42" class="cell white">
+					<div class="option" id="o42"></div>
+					<div class="signed white" id="i42"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c52" class="cell black"></div>
+				<div id="c62" class="cell white">
+					<div class="option" id="o62"></div>
+					<div class="signed white" id="i62"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c72" class="cell black"></div>
+			</div>
+			<div class="row">
+				<div id="c01" class="cell black"></div>
+				<div id="c11" class="cell white">
+					<div class="option" id="o11"></div>
+					<div class="signed white" id="i11"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c21" class="cell black"></div>
+				<div id="c31" class="cell white">
+					<div class="option" id="o31"></div>
+					<div class="signed white" id="i31"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c41" class="cell black"></div>
+				<div id="c51" class="cell white">
+					<div class="option" id="o51"></div>
+					<div class="signed white" id="i51"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c61" class="cell black"></div>
+				<div id="c71" class="cell white">
+					<div class="option" id="o71"></div>
+					<div class="signed white" id="i71"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="c00" class="cell white">
+					<div class="option" id="o00"></div>
+					<div class="signed white" id="i00"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c10" class="cell black"></div>
+				<div id="c20" class="cell white">
+					<div class="option" id="o20"></div>
+					<div class="signed white" id="i20"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c30" class="cell black"></div>
+				<div id="c40" class="cell white">
+					<div class="option" id="o40"></div>
+					<div class="signed white" id="i40"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c50" class="cell black"></div>
+				<div id="c60" class="cell white">
+					<div class="option" id="o60"></div>
+					<div class="signed white" id="i60"><img src="images/blue.png" alt="" class="dama-azul"></div>
+				</div>
+				<div id="c70" class="cell black"></div>
+			</div>
+
+		</div>
+		
+	</div>
+
+	<script src="js/jquery-3.0.0.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/damas.js"></script>
+</body>
+
+</html>

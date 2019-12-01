@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Actividad 4 - sort</h1>
+<p id="a1"></p>
+<p id="a2"></p>
+<p id="a3"></p>
+<p id="a4"></p>
+<p id="a5"></p>
+<p id="a6"></p>
+
+</body>
+<script>
+//Crear un HTML con un script donde se definan 6 arreglos utilizando la estructura de corchetes [] con los siguientes valores: 
+//Ordenar los valores de cada uno de los arreglos utilizando el método sort() y luego mostrar en pantalla cada uno de los arreglos modificados.
+    
+    var decimales=[1.74 ,1.53, 1.43];
+    var enteros=[24, 50, 19];
+    var juegos=["PES 2014", "FIFA 2014", "Gears of War"];
+    var cuerpo=["Higado", "Pulmones", "Cerebro"];
+    var redes_sociales=["Facebook", "Twiter", "Instagram"];
+    var planetas=["Venus", "Mercurio", "Pluton"];
+
+    document.getElementById("a1").innerHTML=decimales.sort();
+    document.getElementById("a2").innerHTML=enteros.sort();
+    document.getElementById("a3").innerHTML=juegos.sort();
+    document.getElementById("a4").innerHTML=cuerpo.sort();
+	document.getElementById("a5").innerHTML=redes_sociales.sort();
+	document.getElementById("a6").innerHTML=planetas.sort();
+</script>
+</html>

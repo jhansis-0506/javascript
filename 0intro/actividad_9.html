@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<h1>Objetos</h1>
+	
+	<h1>Vehiculo 1</h1>
+	<p id="placa1"></p>
+	<p id="ram1"></p>
+	<p id="discoDuro1"></p>
+
+	<h1>Vehiculo 2</h1>
+	<p id="placa2"></p>
+	<p id="ram2"></p>
+	<p id="discoDuro2"></p>
+
+	<h1>Vehiculo 3</h1>
+	<p id="placa3"></p>
+	<p id="ram3"></p>
+	<p id="discoDuro3"></p>
+</body>
+<script>
+//primera foram para crear un objeto
+var Vehiculo1={
+	codigo: "001",
+	ram: "1 GB",
+	discoDuro: "500 GB"
+}
+
+//segunda forma para crear un objeto
+var Vehiculo2=new Object();
+Vehiculo2.codigo = "0002";
+Vehiculo2.ram = "512 MB";
+Vehiculo2.discoDuro = "750 GB";
+
+//tercera forma para crear un objeto
+function Vehiculo3(placa,ram,discoDuro){
+	this.placa = placa;
+	this.ram = ram;
+	this.discoDuro = discoDuro;
+}
+	var Vehiculo3 = new Vehiculo3("003","1.5 Gb","2 TB");
+	//accediendo a las propiedades de los objetos para mostrarlos
+
+	document.getElementById("placa1").innerHTML = Vehiculo1.placa;
+	document.getElementById("ram1").innerHTML = Vehiculo1.ram;
+	document.getElementById("discoDuro1").innerHTML = Vehiculo1.discoDuro;
+
+	document.getElementById("placa2").innerHTML = Vehiculo2.placa;
+	document.getElementById("ram2").innerHTML = Vehiculo2.ram;
+	document.getElementById("discoDuro2").innerHTML = Vehiculo2.discoDuro;
+
+	document.getElementById("placa3").innerHTML = Vehiculo3.placa;
+	document.getElementById("ram3").innerHTML = Vehiculo3.ram;
+	document.getElementById("discoDuro3").innerHTML = Vehiculo3.discoDuro;
+
+
+</script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>CICLO - FOR/IN</h1>
+    <p id="resultado"></p> 
+	<button onclick="propiedadesObj()">Verificar Numero</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina un ciclo WHILE que muestre en pantalla los números impares del 1 al 100.
+*/
+var objeto={
+	id: "0001",
+	nombre: "Gorra",
+	ptelefono: 5000
+}
+var contador=1;
+var cadena = '';
+function propiedadesObj(){
+
+	while (contador<=100){
+		if ((contador%2)==1)
+			cadena += contador+'<br>';
+		contador++;
+	}
+	document.etElementById("resultado").innerHTML=cadena;
+}
+</script>
+</html>

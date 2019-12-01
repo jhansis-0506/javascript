@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<h1>Comentarios de una linea</h1>
+
+    <p id="var1"></p>
+
+    <p id="var2"></p>
+
+    <p id="var3"></p>
+
+    <p id="var4"></p>
+
+    <p id="var5"></p>
+
+    <p id="resultado"></p>
+
+</body>
+
+<script>
+
+      var a = 50; //asignacion de valor 50 a variable a
+
+      document.getElementById("var1").innerHTML=a; //mostrar valor de variable  en id var1
+
+ 
+
+      var b = 43 * 3; //asigancion de valor despues de una operacion simple
+
+      document.getElementById("var2").innerHTML=b; //mostrar valor de variable  en id var2
+
+      var c = (32/2)*4; //asignacion de valor despues de una operacion multiple
+
+      document.getElementById("var3").innerHTML=c;//mostrar valor de variable  en id var3
+
+      var d = "Hola como esta?";  //asignacion de valor cadena
+
+      document.getElementById("var4").innerHTML=d;//mostrar valor de variable  en id var4
+
+      var e = "Next University";  // otra asignacion de valor de cadena
+
+      document.getElementById("var5").innerHTML=e;//mostrar valor de variable  en id var5
+      /**
+       funcion que realiza una resta
+       y despues devuelve el resultado
+      */
+
+      function resta() {
+
+          return 4 - 10;
+
+      }
+
+      var resultado=resta(); 
+
+      document.getElementById("resultado").innerHTML=resultado;//mostrar valor de variable  en id resultaado
+
+</script>
+
+</html> 

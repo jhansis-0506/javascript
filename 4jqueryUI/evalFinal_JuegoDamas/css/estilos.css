@@ -1,0 +1,92 @@
+#content_board{
+    text-align: center;
+    width: 520px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#fichasAzules, #fichasRojas{
+    width: 530px;
+    margin: 0 auto;
+    min-height: 140px;
+}
+
+#fichasAzules img, #fichasRojas img{
+    width: 64px;
+}
+
+#fichasAzules{
+    text-align: left;
+}
+
+#board{
+    width: auto;
+    position: relative;
+    padding: 3px 0px 0px 3px;
+}
+#board .row{
+    padding: 0px;
+    width: 100%;
+}
+
+#board .row .cell{
+    margin: -3px;
+    padding: 0px;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    position: relative;
+}
+#board .row .white:hover{
+    box-shadow: inset 0px 0px 6px #dcc100,
+    inset 0px 0px 2px #dcc100,
+    inset 0px 0px 15px #dcc100;
+}
+
+#board .row .white{
+    cursor: pointer;
+}
+
+#board .row .cell img{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 90%;
+    width: 90%;    
+}
+
+#board .row .white{
+    background-color: #f6e6b4;
+}
+#board .row .black{
+    background-color: #514200;
+}
+
+.signed{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 98%;
+    height: 98%;
+}
+
+img{
+    z-index: 100;
+}
+
+#content_board{
+    margin-top: 2px;
+}
+
+.message{
+    padding-bottom: 20px;
+}
+span.message{
+    font-weight: 600;
+}
+span.ficha{
+    
+    font-style: italic;
+}

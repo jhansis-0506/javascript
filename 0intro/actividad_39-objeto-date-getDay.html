@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Global Object</h1>
+<p id="g1"></p>
+<p id="g2"></p>
+<p id="g3"></p>
+<p id="g4"></p>
+<p id="g5"></p>
+<p id="g6"></p>
+<p id="g7"></p>
+<p id="g8"></p>
+<p id="g9"></p>
+<p id="g10"></p>
+</body>
+<script>
+//global object
+var a;  //Undefined
+var b=a+2;  //NaN
+
+document.getElementById("g1").innerHTML=a;
+document.getElementById("g3").innerHTML=b;
+
+//metodos
+
+//parseInt convierte un string en un numero entero
+
+var c=parseInt("2.25"); //2
+var d=parseInt("1 Next University"); //1
+var e=parseInt("Next University 10"); //NaN
+
+//parseFloat convierte un string en numero con punto decimal
+var f=parseFloat("3.1416");//3.1416
+var g=parseFloat("2.2332 Hola a Todos!");//2.2332
+var h=parseFloat("I Love JS 32.434");//NaN
+
+var uri="http://nextuniversity.com/es_extra_info/index.html";
+var uriEnc=encodeURIComponent(uri);//codifica una url
+var uriDec=;decodeURIComponent(uriEnc);//decodifica una url
+
+document.getElementById("g3").innerHTML=c;
+document.getElementById("g4").innerHTML=d;
+document.getElementById("g5").innerHTML=e;
+document.getElementById("g6").innerHTML=f;
+document.getElementById("g7").innerHTML=g;
+document.getElementById("g8").innerHTML=h;
+document.getElementById("g9").innerHTML=uriEnc;
+document.getElementById("g10").innerHTML=uriDec;
+</script>
+</html>

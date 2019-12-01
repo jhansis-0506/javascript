@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>actividad - try/catch</h1>
+	<p id="resultado"></p>
+	<button onclick="miFuncion1()">Ejecutar Funcion1</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina el siguiente bloque de código:
+
+var numero1=50;
+
+var numero2=50;
+
+var resultado = (numero1 + numero2)/numero3;
+
+Se evaluará a través de una sentencia TRY-CATCH para encontrar el error y mostrar una alerta con el mensaje "Existe un Error" concatenado con el mensaje de error específico. Colocar todo el código en una función llamada miFuncion, la cual se ejecutará a través de un botón con el texto “Ejecutar Función”.
+*/
+
+function miFuncion(){
+	try{
+		var numero1=50;
+
+		var numero2=50;
+
+		var resultado = (numero1 + numero2)/numero3;
+	}catch(error){
+		document.getElementById('resultado').innerHTML= "Existe un error"+" - "+error.message;
+	}	
+}
+
+</script>
+</html>

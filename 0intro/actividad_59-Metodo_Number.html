@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>JSON Estudiante</h1>
+</body>   
+<script>
+/*
+Crear un documento HTML que contenga un script donde se defina un  JSON llamado estudiantes y tenga tres objetos con las propiedades código y nombre. Luego, crear una función llamada leerJSON que reciba como parámetro un JSON, lo recorra y muestre en alerts los objetos contenidos.
+*/
+
+var jsonText = '{"estudiante":['+
+'{"codigo:1212","nombre:Julio Rojas"},'+
+'{"codigo:1547","nombre:Cesar Mamani"},'+
+'{"codigo:1254","nombre:Roberto Caceres"}'+']}';
+var jsOBJ=JSON.parse(jsonText);
+var texto='';
+function leerJSON(json){
+
+	for (var i=0;i<json.estudiante.length;i++){
+		texto='codigo '+json.estudiante[i].codigo+' - Nombre: '+json.estudiante[i].nombre;
+		alert(texto);
+	}
+}
+
+</script>
+</html>

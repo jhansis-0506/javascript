@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Encode Component</h1>
+<p id="b1"></p>
+<p id="b2"></p>
+<p id="b3"></p>
+<p id="b4"></p>
+<p id="b5"></p>
+<p id="b6"></p>
+<p id="b7"></p>
+<p id="b8"></p>
+<p id="b9"></p>
+<p id="b10"></p>
+</body>
+<script>
+/*
+Crear un HTML con un script donde se codifique las siguientes URLs a través del método encodeURIComponent() y guardar las respectivas URLs codificadas en sus respectivas variables y luego mostrarlas en pantalla.
+
+    "http://nextuniversity.com/es/"
+    "http://www.w3.org/"
+    "https://www.facebook.com/"
+    "https://twitter.com/"
+    "http://instagram.com/"
+    "https://www.youtube.com/"
+    "http://www.oracle.com/es/index.html"
+    "https://vine.co/"
+    "https://es.pinterest.com/"
+    "http://latam.motorola.com/"
+
+*/
+    var valor1="http://nextuniversity.com/es/"
+    var valor2="http://www.w3.org/"
+    var valor3="https://www.facebook.com/"
+    var valor4="https://twitter.com/"
+    var valor5="http://instagram.com/"
+    var valor6="https://www.youtube.com/"
+    var valor7="http://www.oracle.com/es/index.html"
+    var valor8="https://vine.co/"
+    var valor9="https://es.pinterest.com/"
+    var valor10="http://latam.motorola.com/"
+    document.getElementById("b1").innerHTML=valor1.encodeURIComponent();
+    document.getElementById("b2").innerHTML=valor2.encodeURIComponent();
+    document.getElementById("b3").innerHTML=valor3.encodeURIComponent();
+    document.getElementById("b4").innerHTML=valor4.encodeURIComponent();
+    document.getElementById("b5").innerHTML=valor5.encodeURIComponent();
+    document.getElementById("b6").innerHTML=valor6.encodeURIComponent();
+    document.getElementById("b7").innerHTML=valor7.encodeURIComponent();
+    document.getElementById("b8").innerHTML=valor8.encodeURIComponent();
+    document.getElementById("b9").innerHTML=valor9.encodeURIComponent();
+    document.getElementById("b10").innerHTML=valor10.encodeURIComponent();
+</script>
+</html>

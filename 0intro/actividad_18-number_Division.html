@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Number</h1>
+<p id="n1"></p>
+</body>
+<script>
+//Crear un HTML que contenga un script en el cual se definirá un método llamado metodoDivision a través de la propiedad Number.prototype, y tendrá como función dividir entre 2 a una variable numérica. Invocar el metodoDivision y aplicarlo sobre una variable numérica y mostrar su resultado en pantalla.
+
+Number.prototype.metodoDivision=function(){//permite crear un nuevo metodo para manipular numeros
+return this/2;	
+}
+var numero=15;
+document.getElementById("n1").innerHTML=numero.metodoDivision();
+</script>
+</html>

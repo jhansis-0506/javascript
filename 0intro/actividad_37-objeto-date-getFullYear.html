@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Actividad 6 - objeto Date()</h1>
+<p id="a1"></p>
+<p id="a2"></p>
+<p id="a3"></p>
+<p id="a4"></p>
+<p id="a5"></p>
+<p id="a6"></p>
+
+</body>
+<script>
+/*
+Crear un HTML con un script donde se definan 6 objetos Date() con las siguientes fechas:
+
+    Con la fecha de hoy.
+    2018-9-13
+    2008-5-23
+    2003-12-25
+    1999-8-18
+    1991-6-16
+
+  Luego obtener el mes de cada objeto Date() y mostrarlos en pantalla.
+*/
+    
+    
+    var date1=new Date();
+    var date2=new Date(2018,9,13);
+    var date3=new Date(2008,5,23);
+    var date4=new Date(2003,12,25);
+    var date5=new Date(1999,8,18);
+    var date6=new Date(1991,6,16);
+
+
+    document.getElementById("a1").innerHTML=date1.getDate();
+    document.getElementById("a2").innerHTML=date2.getDate();
+    document.getElementById("a3").innerHTML=date3.getDate();
+    document.getElementById("a4").innerHTML=date4.getDate();
+    document.getElementById("a5").innerHTML=date5.getDate();
+    document.getElementById("a6").innerHTML=date6.getDate();
+</script>
+</html>

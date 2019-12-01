@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Number</h1>
+<p id="n1"></p>
+</body>
+<script>
+//Crear un HTML que contenga un script en el cual se definirá un método llamado metodoMultiplicacion a través de la propiedad Number.prototype, y tendrá como función multiplicar 12 a una variable numérica. Invocar el metodoMultiplicacion y aplicarlo sobre una variable numérica y mostrar su resultado en pantalla.
+Number.prototype.metodoMultiplicacion=function(){//permite crear un nuevo metodo para manipular numeros
+ return this*12;	
+}
+var numero=150;
+document.getElementById("n1").innerHTML=numero.metodoMultiplicacion();
+</script>
+</html>

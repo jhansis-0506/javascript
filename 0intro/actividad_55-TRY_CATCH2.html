@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>actividad - try/catch/finally</h1>
+	<p id="resultado"></p>
+	<button onclick="miFuncion()">Ejecutar Funcion</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina un bloque TRY-CATCH y definir las siguientes sentencias:
+
+var estudiante = null;
+
+alert(estudiante.nombre);
+
+Capturar el error y mostrar en pantalla el mensaje "Existe un Error" concatenado con el error. Luego ejecutar la sentencia FINALLY con el mensaje “Estamos en la sentencia FINALLY!!”.Codificar todo el código dentro un una función llamada miFuncion, la cual se invocará en un botón con el texto “Ejecutar Función”.
+*/
+
+function miFuncion(){
+	try{
+		var estudiante = null;
+
+		alert(estudiante.nombre);
+	}catch(error){
+		document.getElementById('resultado').innerHTML= "Existe un error"+" - "+error.message;
+	}finally{
+		document.getElementById('resultado2').innerHTML= "Estamos en la sentencia FINALLY!!";
+	}
+}
+
+</script>
+</html>

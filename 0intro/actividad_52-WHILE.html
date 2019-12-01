@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>CICLO - FOR/IN</h1>
+    <p id="resultado"></p> 
+	<button onclick="propiedadesObj()">Verificar Numero</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina un arreglo con los siguientes valores:
+
+    Milan
+    Liverpool
+    Barcelona
+    Chelsea
+    Bayern
+
+Utilice el método DO/WHILE para recorrer el arreglo y mostrar sus valores en pantalla.
+*/
+var objeto=["Milan","Liverpool","Barcelona","Chelsea","Bayern"];
+var contador=0;
+var cadena = '';
+function propiedadesObj(){
+
+	do{
+		cadena+=objeto[contador];
+		contador++;
+	}while(contador<objeto.length)
+	document.getElementById("resultado").innerHTML=cadena;
+}
+</script>
+</html>

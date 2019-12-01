@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>actividad - try/catch/finally</h1>
+	<p id="propiedad1"></p>
+	<p id="propiedad2"></p>
+	<p id="propiedad3"></p>
+	<p id="propiedad4"></p>
+	<button onclick="miFuncion()">mostrar propiedades</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina una clase llamada Producto con las siguientes propiedades:
+
+    codigo (cadena)
+    nombre(cadena)
+    cantidad(numerico)
+    precio(numerico)
+
+Definir dentro de la clase un método que se llame mostrar, que muestre las propiedades del objeto. Luego crear un objeto de clase Producto. Por último, invocar el método mostrar del objeto creado en una función que se llame miFuncion, la cual se invocará en un botón con el texto “Mostrar Propiedades”.
+*/
+
+function Producto(codigo,nombre,cantidad,precio){
+	this.codigo=codigo;
+	this.nombre=nombre;
+	this.cantidad=cantidad;
+	this.precio=precio;
+
+	this.mostrar=function(){
+		document.getElementById("propiedad1").innerHTML=this.codigo;
+		document.getElementById("propiedad2").innerHTML=this.nombre;
+		document.getElementById("propiedad3").innerHTML=this.cantidad;
+		document.getElementById("propiedad4").innerHTML=this.precio;
+	};
+}
+var nProducto=new Producto('010','Mario Morales',5,12500);
+
+function miFuncion(argument){
+	nProducto.mostrar();
+}
+
+</script>
+</html>

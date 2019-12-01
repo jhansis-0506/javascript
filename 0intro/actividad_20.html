@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Number</h1>
+<p id="n1"></p>
+<p id="n2"></p>
+<p id="n3"></p>
+<p id="n4"></p>
+<p id="n5"></p>
+</body>
+<script>
+//Crear un HTML que contenga un script en el cual se definirá los siguientes números como variables numéricas y redondear a 2 decimales a través del método toPrecision. Mostrar sus resultados en pantalla.
+
+    var numero1=12.6477;
+    var numero2=0.23576;
+    var numero3=5.0896;
+    var numero4=4.23435;
+    var numero5=235.3457778;
+
+
+
+document.getElementById("n1").innerHTML=numero1.toPrecision(2);
+document.getElementById("n2").innerHTML=numero2.toPrecision(2);
+document.getElementById("n3").innerHTML=numero3.toPrecision(2);
+document.getElementById("n4").innerHTML=numero4.toPrecision(2);
+document.getElementById("n5").innerHTML=numero5.toPrecision(2);
+</script>
+</html>

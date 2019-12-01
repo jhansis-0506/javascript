@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>actividad - try/catch</h1>
+	<p id="resultado"></p>
+	<button onclick="miFuncion()">Ejecutar Funcion</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina un bloque TRY-CATCH, y dentro de este definir una variable llamada numero con el valor -40. La idea es calcular la raíz cuadrada de -40 y validar si el resultado es NaN. Si es NaN lanzar un error con el mensaje “No es posible calcular una raíz negativa!!”. Codificar el código dentro de una función llamada miFuncion, la cual se invocará en un botón con el texto “Ejecutar Función”.
+*/
+
+function miFuncion(){
+	try{
+		var numero=-40;
+
+		resultado = sqrt(numero);
+		if (isNaN(resultado)){
+			document.getElementById('resultado').innerHTML= "No es posible calcular una raíz negativa!!";
+		}
+	}catch(error){
+		document.getElementById('resultado').innerHTML= "Existe un error"+" - "+error.message;
+	}	
+}
+
+</script>
+</html>

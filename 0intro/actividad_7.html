@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<h1>Objetos</h1>
+	
+	<h1>Persona 1</h1>
+	<p id="i1"></p>
+	<p id="n1"></p>
+	<p id="e1"></p>
+
+	<h1>Persona 2</h1>
+	<p id="i2"></p>
+	<p id="n2"></p>
+	<p id="e2"></p>
+
+	<h1>Persona 3</h1>
+	<p id="i3"></p>
+	<p id="n3"></p>
+	<p id="e3"></p>
+</body>
+<script>
+//primera foram para crear un objeto
+var Persona1={
+	id: "001",
+	nombre: "Mario Quispe",
+	edad: 45
+}
+
+//segunda forma para crear un objeto
+var Persona2=new Object();
+Persona2.id = "002";
+Persona2.nombre = "Pedro Rojas";
+Persona2.edad = 31;
+
+//tercera forma para crear un objeto
+function Persona3(id,nombre,edad){
+	this.id = id;
+	this.nombre = nombre;
+	this.edad = edad;
+}
+	var Persona3 = new Persona3("003","Jose Rioja",22);
+	//accediendo a las propiedades de los objetos para mostrarlos
+
+	document.getElementById("i1").innerHTML = Persona1.codigo;
+	document.getElementById("n1").innerHTML = Persona1.nombre;
+	document.getElementById("e1").innerHTML = Persona1.telefono;
+
+	document.getElementById("i2").innerHTML = Persona2.codigo;
+	document.getElementById("n2").innerHTML = Persona2.nombre;
+	document.getElementById("e2").innerHTML = Persona2.telefono;
+
+	document.getElementById("i3").innerHTML = Persona3.codigo;
+	document.getElementById("n3").innerHTML = Persona3.nombre;
+	document.getElementById("e3").innerHTML = Persona3.telefono;
+
+
+</script>
+</html>

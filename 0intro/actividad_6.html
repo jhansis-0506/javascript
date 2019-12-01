@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<h1>Objetos</h1>
+	
+	<h1>Estudiante 1</h1>
+	<p id="c1"></p>
+	<p id="n1"></p>
+	<p id="t1"></p>
+
+	<h1>Estudiante 2</h1>
+	<p id="c2"></p>
+	<p id="n2"></p>
+	<p id="t2"></p>
+
+	<h1>Estudiante 3</h1>
+	<p id="c3"></p>
+	<p id="n3"></p>
+	<p id="t3"></p>
+</body>
+<script>
+//primera foram para crear un objeto
+var Estudiante1={
+	codigo: "001",
+	nombre: "Mario Quispe",
+	telefono: 455271
+}
+
+//segunda forma para crear un objeto
+var Estudiante2=new Object();
+Estudiante2.codigo = "002";
+Estudiante2.nombre = "Pedro Rojas";
+Estudiante2.telefono = 31589;
+
+//tercera forma para crear un objeto
+function Estudiante3(codigo,nombre,telefono){
+	this.codigo = codigo;
+	this.nombre = nombre;
+	this.telefono = telefono;
+}
+	var Estudiante3 = new Estudiante3("003","Jose Rioja",422005);
+	//accediendo a las propiedades de los objetos para mostrarlos
+
+	document.getElementById("c1").innerHTML = Estudiante1.codigo;
+	document.getElementById("n1").innerHTML = Estudiante1.nombre;
+	document.getElementById("t1").innerHTML = Estudiante1.telefono;
+
+	document.getElementById("c2").innerHTML = Estudiante2.codigo;
+	document.getElementById("n2").innerHTML = Estudiante2.nombre;
+	document.getElementById("t2").innerHTML = Estudiante2.telefono;
+
+	document.getElementById("c3").innerHTML = Estudiante3.codigo;
+	document.getElementById("n3").innerHTML = Estudiante3.nombre;
+	document.getElementById("t3").innerHTML = Estudiante3.telefono;
+
+
+</script>
+</html>

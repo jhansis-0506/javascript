@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<h1>Funciones</h1>
+	<p id="resultado1"></p>
+	<p id="resultado2"></p>
+	<p id="resultado3"></p>
+</body>
+<script>
+//llamado a una funcion desde el codigoque recibe dos parametros y retorna un valor
+function division(p,q){
+	return p/q;
+}
+var resultado1= division(10,2);
+document.getElementById("resultado1").innerHTML = resultado1;
+//llabado de una funcion asi misma
+(function(){
+	document.getElementById("resultado2").innerHTML="Esta funcion se invoca a si misma";
+})();
+//Asiganacion de una funcion a una variable
+var z=function(x,y){
+	return x-y;
+};
+
+var w=z(15,6);
+document.getElementById("resultado3").innerHTML = w;
+</script>
+</html>

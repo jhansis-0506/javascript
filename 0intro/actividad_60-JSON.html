@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>JSON Estudiante</h1>
+	<p id="mayor"></p>
+	<button onclick="">Mostrar Edad Mayor</button>
+	<p id="personas"></p>
+	<button onclick="mostrarPersonas()">Mostrar Personas</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script en el cual se defina un JSON formado por 10 objetos estudiantes con las siguientes propiedades:
+
+        código (tipo texto)
+        nombre (tipo texto)
+        nota (tipo numérico)
+
+La idea es crear 4 botones con su respectiva acción. La primera acción es mostrar todos los objetos del JSON con sus respectivas propiedades en pantalla. La segunda acción es calcular la nota promedio y mostrarla en pantalla. La tercera acción es mostrar en pantalla el estudiante con la nota mayor. La cuarta acción es mostrar en pantalla el estudiante con la menor nota de todas
+*/
+
+var jsonText = '{"personas":['+
+'{"nombre":"Julio Manrique","edad":"32"},'+
+'{"nombre":"Luisa Rioja","edad":"60"},'+
+'{"nombre":"Mario Gonzales","edad":"45"},'+
+'{"nombre":"Raul Morales","edad":"35"},'+
+'{"nombre":"Alberto Mamani","edad":"37"},'+
+'{"nombre":"Francisco Fernandez","edad":"29"},'+
+'{"nombre":"Mariana Quispe","edad":"33"},'+
+'{"nombre":"Luis Fernandez","edad":"44"},'+
+'{"nombre":"Luis Vargas","edad":"20"},'+
+'{"nombre":"Pedro Ramirez","edad":"25"}'+']}';
+var jsObj=JSON.parse(jsonText);
+var texto='';
+function mostrarPersonas(json){
+
+	for (var i=0;i<json.estudiante.length;i++){
+		texto+='Nombre: '+json.estudiante[i].nombre+' - Edad: '+json.estudiante[i].edad+'<br>';		
+	}
+	document.getElementById("personas").innerHTML=texto;
+}
+var mayor='';
+function mostrarEdadMayor(json){
+	var
+}
+leerJSON(jsObj);
+</script>
+</html>

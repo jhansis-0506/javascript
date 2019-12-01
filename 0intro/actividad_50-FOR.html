@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>CICLO - FOR/IN</h1>
+    <p id="resultado"></p> 
+	<button onclick="porpiedadesObj()">Verificar Numero</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina un objeto con las siguientes propiedades:
+
+    ID
+    nombre
+    teléfono
+
+Utilice el método FOR/IN para recorrer el objeto y mostrar sus propiedades en pantalla.
+*/
+var objeto={
+	id: "0001",
+	nombre: "Gorra",
+	ptelefono: 5000
+}
+var cadena = '';
+function propiedadesObj(){
+	
+	for(x in objeto){
+		cadena+=objeto[x]+'<br>'
+	}
+	document.getElementById("resultado").innerHTML=cadena;
+}
+</script>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>POO javascript</h1>
+	<p id="promedio"></p>
+	<button onclick="miFuncion()">Mostrar Promedio</button>
+</body>   
+<script>
+/*
+Crear un HTML que contenga un script donde se defina una clase llamada Estudiante con las siguientes propiedades:
+
+    codigo(cadena)
+    nombre(cadena)
+    nota1(numerico)
+    nota2(numerico)
+
+Definir dentro de la clase un método que se llame promedio, que calcule el promedio de las notas y muestre el nombre y el promedio en pantalla. Luego crear un objeto de clase Estudiante. Por último, invocar el método promedio del objeto creado en una función que se llame miFuncion, la cual se invocará en un botón con el texto  “Mostrar Promedio”.
+*/
+
+function Estudiante(codigo,nombre,nota1,nota2){
+	this.codigo=codigo;
+	this.nombre=nombre;
+	this.nota1=nota1;
+	this.nota2=nota2;
+
+	this.promedio=function(){
+		promedio = (nota1+nota2)/2;
+		document.getElementById("promedio").innerHTML=promedio;
+	};
+}
+var nEstudiante=new Estudiante('010','Mario Morales',55,60);
+
+function miFuncion(argument){
+	nProducto.promedio();
+}
+
+</script>
+</html>

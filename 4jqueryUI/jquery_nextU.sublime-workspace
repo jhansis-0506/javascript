@@ -1,0 +1,1265 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"color",
+				"colorcelda"
+			],
+			[
+				"m",
+				"myDivWidget"
+			],
+			[
+				"di",
+				"_div"
+			],
+			[
+				"miEstilo",
+				"miEstilo2"
+			],
+			[
+				"miEs",
+				"miEstilo1"
+			],
+			[
+				"mi",
+				"miEstilo2"
+			],
+			[
+				"ease",
+				"easeInElastic"
+			],
+			[
+				"miEsti",
+				"miEstilo2"
+			],
+			[
+				"input",
+				"input2"
+			],
+			[
+				"_",
+				"_inputNumero1"
+			],
+			[
+				"numer",
+				"numero"
+			],
+			[
+				"operacion",
+				"operacion2"
+			],
+			[
+				"opera",
+				"operacion1"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"border-top",
+				"border-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"sw",
+				"switchClass"
+			],
+			[
+				"easeInOut",
+				"easeInOUtBounce"
+			],
+			[
+				"efecto",
+				"efectoInicial"
+			],
+			[
+				"Mi",
+				"miEstilo"
+			],
+			[
+				"bore",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"outli",
+				"outline-style"
+			],
+			[
+				"out",
+				"outline-color"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bar",
+				"background-color"
+			],
+			[
+				"progress",
+				"progressbar"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"table-r",
+				"table-row-group"
+			],
+			[
+				"cont",
+				"contenedorPadre"
+			],
+			[
+				"mil",
+				"miLista1"
+			],
+			[
+				"even",
+				"eventos"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"e",
+				"err"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"coll",
+				"collection"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"D",
+				"document"
+			],
+			[
+				"valida",
+				"validarEstudiante"
+			],
+			[
+				"Co",
+				"CODIGO"
+			],
+			[
+				"codigo",
+				"codigoE"
+			],
+			[
+				"codi",
+				"codigoE"
+			],
+			[
+				"plato",
+				"platoID"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"body",
+				"body"
+			],
+			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"con",
+				"Content-Type"
+			],
+			[
+				"fie",
+				"filePath"
+			],
+			[
+				"file",
+				"fileURL"
+			],
+			[
+				"fil",
+				"filePath"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"co",
+				"codigoEstudiante"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"nombre",
+				"nombrecarro"
+			],
+			[
+				"ele",
+				"elementos4"
+			],
+			[
+				"array",
+				"array_filtro"
+			],
+			[
+				"elem",
+				"elementos5"
+			],
+			[
+				"elementos",
+				"elementos5"
+			],
+			[
+				"parra",
+				"parrafo1"
+			],
+			[
+				"elemen",
+				"elementos1"
+			],
+			[
+				"hide",
+				"hide_paragraph"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"alig",
+				"vertical-align"
+			],
+			[
+				"for",
+				"miForm"
+			],
+			[
+				"efec",
+				"efectosDiv2"
+			],
+			[
+				"efect",
+				"efectosDiv1"
+			],
+			[
+				"mid",
+				"miDiv2"
+			],
+			[
+				"midV",
+				"miDiv2"
+			],
+			[
+				"miDv",
+				"miDiv2"
+			],
+			[
+				"miDi",
+				"miDiv2"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"P",
+				"pageX"
+			],
+			[
+				"miDiv",
+				"miDiv1"
+			],
+			[
+				"me",
+				"mensaje"
+			],
+			[
+				"men",
+				"mensaje"
+			],
+			[
+				"midi",
+				"miDiv2"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pro",
+				"propiedad"
+			],
+			[
+				"bco",
+				"bcoProdem"
+			],
+			[
+				"ingreso",
+				"ingreso2"
+			],
+			[
+				"to",
+				"totalProducto"
+			],
+			[
+				"mostra",
+				"mostrarTotal"
+			],
+			[
+				"mos",
+				"mostrarEdad"
+			],
+			[
+				"most",
+				"mostrarId"
+			],
+			[
+				"te",
+				"telefono3"
+			],
+			[
+				"Telefo",
+				"telefono1"
+			],
+			[
+				"tele",
+				"telefonos"
+			],
+			[
+				"telefono",
+				"telefono1"
+			],
+			[
+				"propied",
+				"propiedadPrivada"
+			],
+			[
+				"propiedad",
+				"propiedadPublica"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"veri",
+				"verificarJSON"
+			],
+			[
+				"json",
+				"jsonText"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"val",
+				"valor_temperatura"
+			],
+			[
+				"inicia",
+				"iniciarReloj"
+			],
+			[
+				"ini",
+				"iniciarReloj"
+			],
+			[
+				"contador",
+				"contador2"
+			],
+			[
+				"equipo",
+				"equiposPC"
+			],
+			[
+				"auto",
+				"AUTO_INCREMENT"
+			],
+			[
+				"var",
+				"varchar"
+			],
+			[
+				"INO",
+				"INNODB"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"valor",
+				"valor1"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"scr",
+				"screen"
+			],
+			[
+				"vet",
+				"ventana1"
+			],
+			[
+				"nodo",
+				"nodo_hijo"
+			],
+			[
+				"cambiar",
+				"cambiartexto"
+			],
+			[
+				"enca",
+				"enca1"
+			],
+			[
+				"tex",
+				"texto1"
+			],
+			[
+				"texto",
+				"texto2"
+			],
+			[
+				"mensaj",
+				"mensaje1"
+			],
+			[
+				"cambia",
+				"cambiarTBL"
+			],
+			[
+				"cambi",
+				"cambiarTitulo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "actividad55.html",
+			"settings":
+			{
+				"buffer_size": 7276,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "animarWidget.html",
+			"settings":
+			{
+				"buffer_size": 1190,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "actividad49.html",
+			"settings":
+			{
+				"buffer_size": 1270,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "evaluacionFinal.html",
+			"settings":
+			{
+				"buffer_size": 7076,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/juego.js",
+			"settings":
+			{
+				"buffer_size": 1428,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "widget.html",
+			"settings":
+			{
+				"buffer_size": 5457,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/earandia/Documents/mysql_database.sql",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad54.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad53.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/jquery-ui-1.11.4/jquery-ui.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/position.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/switchClass.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/switchClass_ejemplo1.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad44.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad45.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad46.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/toggle_toggleClass.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad47.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad48.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad49.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad50.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/positionButton.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad51.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad52.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/widget.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/toggle.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/toggle_toggleClass2.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/dialogShow.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/dialogHide.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/hideShow.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/blind.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/shakeExplode.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/easing.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/textAreaAnimate.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/animacionForm.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/animate2.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/animate.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad43.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad42.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad41.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad40.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad39.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad38.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad37.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad36.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad35.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad33.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad34.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad32.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad31.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividd29.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad30.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad28.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad27.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad26.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad25.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad24.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad23.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad16.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad17.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/datepicker2.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad22.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad18.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad19.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad21.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/efectos2.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/spinnerSliderSelectMenu.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/efectos.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad18b.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad20.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/tabsCombination.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/tabsTooltips.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/progressBar.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad15.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad14.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad13.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad12.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/acordeon_autocomplete.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad11.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad9.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad10.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/accordion2.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/progressBar.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/dialog_button_menu.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/dialogButton.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/datepicker.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/datepicker.css",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/datepicker.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/progressBar.css",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad1.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/droppable.css",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/droppable.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/resizable-act5.css",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad5.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/sortable-ej3.css",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad8.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad7.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/selectable.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/sortable.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/resizable.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad4.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/demo_selectable-sortable.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/sort-select.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad6.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/accordion.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/selectable-act6.css",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/selectable-ej4.css",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/selectable-ej4.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/sortable-ej3.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/demo_selectable-sortable.html",
+		"/C/Users/earandia/Downloads/variosDB.sql",
+		"/D/downloads/2015/.sql",
+		"/D/downloads/2015/servicios2.sql",
+		"/D/downloads/2016/servicios ().sql",
+		"/D/downloads/iniaf6.sql",
+		"/D/downloads/iniaf(4).sql",
+		"/D/DB_iniaf2-normalizada2_1.sql",
+		"/D/DB_iniaf2-normalizada2.sql",
+		"/D/DB_iniaf2-normalizada3.sql",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad2.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/draggable.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/draggable2.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/actividad2.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/actividad3.js",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/actividad3.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/css/actividad3.css",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/draggable3.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/draggable4.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/ejemplo1.html",
+		"/C/xampp/htdocs/nextU/javascript/4jqueryUI/js/ejemplo1.js",
+		"/C/Users/earandia/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/modulo4/node-mongo/package.sublime-workspace",
+		"/C/Users/earandia/Documents/pruebaNODEJS/index.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class=",
+			"class",
+			"asdf",
+			" class=\"nocolor\"",
+			"-co",
+			"\"color",
+			"id",
+			"th",
+			"validar",
+			"progress",
+			"'",
+			"extension=",
+			"extension",
+			"alert",
+			"'/platos/:platoID',",
+			";\n\napp.",
+			"'/platos/:platoID',",
+			"app",
+			"'/platos',",
+			"app",
+			"vehiculo",
+			"listarPersonas",
+			"restablacer",
+			"table",
+			"li>",
+			"persona",
+			"label",
+			"nit",
+			"resa",
+			"totalProducto",
+			"fecha",
+			"idName",
+			"class",
+			"personas",
+			"edad",
+			"nombre",
+			"String(",
+			"Sring(",
+			"parseFloat",
+			"Int",
+			"FullYear",
+			"-",
+			".reverse",
+			"array",
+			"y",
+			"ó",
+			"es mayor que",
+			"es menor que",
+			"cadena",
+			"Lower",
+			"toPrecision(2)",
+			"numero",
+			"Fixed(3)",
+			"toExponential()",
+			"marca",
+			"modelo",
+			".id",
+			"Persona",
+			"Personal",
+			"telefono",
+			"codigo",
+			"Estudiante",
+			"Articulo",
+			"`",
+			"\\r\\n",
+			"1",
+			"9",
+			"8",
+			"7",
+			"6",
+			"5",
+			"4",
+			"3",
+			"2",
+			"key",
+			"relay",
+			"host",
+			"[m",
+			"[maria",
+			"html",
+			"inde",
+			"home",
+			"home.php",
+			"table semilla",
+			"table provincia",
+			"`",
+			"view_hoja",
+			"view_inspecciones_superficie",
+			"view_hoja_cosecha",
+			"view_cuenta_fiscal",
+			"view_semilla",
+			"`",
+			"SELECT",
+			"view_lst_semilleras_",
+			"view_cuenta",
+			"CREATE G",
+			"create table cuenta_semilla",
+			"cuenta_semilla",
+			"view_lst_semillerist",
+			"tipo_mue",
+			"tipo_mues",
+			"=",
+			"]]0??",
+			"?",
+			"view_",
+			"view",
+			"view_solici",
+			"id_semillerista",
+			"id_Semillerista",
+			"id_Se",
+			"view_lst_solicitudes_id",
+			"view_hoja_co",
+			"%m",
+			"join",
+			"select",
+			"`",
+			"view_super",
+			"AS estado_sup",
+			"view_superficie",
+			"view_solicitudes",
+			"view_lst_semilleristas",
+			"view_solicitudes",
+			"view_sol",
+			"<td >	",
+			"</td>\n</tr>",
+			"<td >	<input type=\"text\" onclick=\"this.focus();this.select()\" readonly=\"readonly\" value=\"",
+			"\" /></td>",
+			"<tr><td ><input type=\"text\" onclick=\"this.focus();this.select()\" readonly=\"readonly\" value=\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"id=",
+			"co",
+			"\"colorcelda",
+			"class",
+			"td",
+			"barra",
+			"\"",
+			"",
+			".",
+			"",
+			"estudiante",
+			"listarEstudiantes",
+			"tabla",
+			"option>",
+			"estudiante",
+			"codigo",
+			"leado",
+			"mostrarTotal",
+			"Id",
+			"id",
+			"ventas",
+			"valor",
+			"codigo",
+			"Number(",
+			"encodeURIComponent",
+			"Float",
+			"Date",
+			",",
+			".sort",
+			"Array",
+			"&&",
+			"||",
+			">",
+			"<",
+			"angulo",
+			"Upper",
+			"toLowerCase()",
+			"cadena",
+			"Precision(2)",
+			"toFixed(3)",
+			"ram",
+			"discoDuro",
+			".placa",
+			"Vehiculo",
+			"edad",
+			"id",
+			"Persona",
+			"Estudiante",
+			" ",
+			"",
+			" SELECT",
+			"INNER JOIN",
+			"SELECT",
+			"",
+			"caducidad : ",
+			"usuario : ",
+			"\\\"",
+			"",
+			"ON",
+			"INNER JOIN",
+			"",
+			"WHERE",
+			"FROM",
+			"SELECT",
+			"ON",
+			"",
+			"INNER JOIN",
+			"",
+			"INNER JOIN comunidad com ON com.id_comunidad = sol.comunidad\n	   				   INNER JOIN municipio mun ON mun.id_municipio = com.id_municipio",
+			"",
+			"INNER JOIN",
+			"ON",
+			"",
+			".",
+			"172800",
+			"ON",
+			"WHERE",
+			"INNER JOIN ",
+			"FROM",
+			"SELECT",
+			"INNER JOIN",
+			"",
+			"id_cultivo",
+			" costo",
+			" ",
+			"",
+			"-",
+			",",
+			"u",
+			"o",
+			"i",
+			"e",
+			"a",
+			"public",
+			"$this->",
+			"$estado",
+			"CREATE DATABASE",
+			"CREATE TABLE",
+			"CREATE OR REPLACE VIEW ",
+			"intval",
+			"('3",
+			"19')",
+			"','",
+			"o",
+			"InnoDB",
+			"",
+			"39",
+			"400",
+			"archivo",
+			" ",
+			"/images/app/servicios_2_full.png",
+			"PEÑON",
+			"PIÑA",
+			"DRACULA",
+			"ASI",
+			"Qué pasó ayer",
+			"RUISEÑOR",
+			"Operación Canadá",
+			"escocés",
+			"Atrápame",
+			"Distracción",
+			"Pasión",
+			"Públicos",
+			"Código",
+			"Tómalo",
+			"táctica",
+			"Divirtiéndose",
+			"míos"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "actividad55.html",
+					"settings":
+					{
+						"buffer_size": 7276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5153,
+								4975
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 351.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "animarWidget.html",
+					"settings":
+					{
+						"buffer_size": 1190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "actividad49.html",
+					"settings":
+					{
+						"buffer_size": 1270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "evaluacionFinal.html",
+					"settings":
+					{
+						"buffer_size": 7076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7076,
+								7076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1804.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/juego.js",
+					"settings":
+					{
+						"buffer_size": 1428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								928,
+								928
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "widget.html",
+					"settings":
+					{
+						"buffer_size": 5457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3271,
+								3271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 334.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true
+}

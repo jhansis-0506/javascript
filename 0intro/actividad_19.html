@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>Number</h1>
+<p id="n1"></p>
+<p id="n2"></p>
+<p id="n3"></p>
+<p id="n4"></p>
+<p id="n5"></p>
+</body>
+<script>
+//Crear un HTML que contenga un script en el cual se definirá los siguientes números como variables numéricas y reducir el número de decimales a 3 a través del método toFixed. Mostrar sus resultados en pantalla.
+    var numero1=23.4565;
+    var numero2=0.786893;
+    var numero3=1.7980;
+    var numero4=3.2379976;
+    var numero5=235.908673;
+
+
+document.getElementById("n1").innerHTML=numero1.toFixed(3);
+document.getElementById("n2").innerHTML=numero2.toFixed(3);
+document.getElementById("n3").innerHTML=numero3.toFixed(3);
+document.getElementById("n4").innerHTML=numero4.toFixed(3);
+document.getElementById("n5").innerHTML=numero5.toFixed(3);
+</script>
+</html>

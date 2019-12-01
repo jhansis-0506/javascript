@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>Actividad - IF…ELSE IF…ELSE.</h1>
+	<p>Numero: 15</p>
+    <p id="resultado"></p> 
+	<button onclick="verificarValor()">Verificar Numero</button>
+</body>   
+<script>
+/*
+Crear un HTML con un script donde se defina una variable llamada opc con el valor 4. La idea es evaluar la variable opc en una sentencia SWITCH. Se evaluarán 5 casos; el primer caso representa el valor 1 y mostrará en pantalla el mensaje “El día es lunes!”, el segundo representa el valor 2 y mostrará en pantalla el mensaje “El día es martes!”, el tercer caso representa el valor 3 y mostrará en pantalla el mensaje “El día es miércoles!”, el cuarto caso representa el valor 4 y mostrará en pantalla el mensaje “El día es jueves!”, y el quinto caso representa el valor 5 y mostrara en pantalla el mensaje “El día es viernes!”.
+*/
+var opc=4;
+function verificarValor(){
+	Switch(opc){
+		case 1:
+			document.getElementById("resultado").innerHTML="El dia es Lunes!";
+		break;
+		case 2:
+			document.getElementById("resultado").innerHTML="El dia es Martes!";
+		break;
+		case 3:
+			document.getElementById("resultado").innerHTML="El dia es Miercoles!";
+		break;
+		case 4:
+			document.getElementById("resultado").innerHTML="El dia es Jueves!";
+		break;
+		case 5:
+			document.getElementById("resultado").innerHTML="El dia es Viernes!";
+		break;
+	}
+}
+
+
+</script>
+</html>

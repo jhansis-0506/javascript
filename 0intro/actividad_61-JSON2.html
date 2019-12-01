@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+<body>
+	<h1>HOJA DE VIDA</h1><br>
+	<form onclick="click()" onload="load()" onselect="select()" onchange="change()" onreset="reset()">
+		<div>
+		<h1>Informacion Personal</h1>
+		<label>Nombres: </label>
+		<input type="text" onchange="mayuscula()" id="upper">
+		<label>Apellidos </label>
+		<input type="text" onchange="mayuscula()" id="upper">
+		<label>Direccion </label>
+		<input type="text">
+		<label>Edad </label>
+		<input type="text">
+		<label>Fecha de Nacimiento </label>
+		<input type="date">
+		<label>Lugar de Nacimiento</label>
+		<input type="text">
+		<label>Estado Civil</label>
+		<input type="text">
+	</div>
+	<div>
+		<h1>Informacion Academica</h1>
+		<label>Universidad </label>
+		<input type="text">
+		<label>Profesion </label>
+		<input type="text">
+		<label>Observaciones </label>
+		<textarea value="Observaciones" onclick="seleccionar()"></textarea>
+	</div>
+	<button type="button" onclick="enviar()">Enviar</button>
+	<button type="reset">Restablecer</button>
+	</form>
+	<p id="seleccion"></p>
+	<p id="enviar"></p>
+	<p id="reset"></p>
+</body>   
+<script>
+/*
+Realizar en archivo HTML un formato de Hoja de Vida Simple, que contenga los siguientes ítems:
+Información Personal
+
+        Nombres
+        Apellidos
+        Dirección
+        Edad
+        Fecha de Nacimiento
+        Lugar de Nacimiento
+        Estado Civil
+
+Información Académica
+
+        Universidad
+        Profesión
+        Observaciones
+
+El item Observaciones debe ser un TextArea con valor Observaciones.
+
+El item Fecha de Nacimiento debe ser de tipo date.
+
+Los demás ítems deben ser de tipo texto.
+
+Se deben crear dos botones:  el primero que diga Enviar y el otro Restablecer.
+
+Implementar los eventos onClick, OnLoad, OnSelect, OnChange, OnReset, para realizar las siguientes acciones sobre el formulario:
+
+        Al cargar la página se debe mostrar un mensaje de alerta que muestre el mensaje “Bienvenido a su formato de Hoja de Vida”.
+        Cuando se haga clic en el botón Enviar se debe mostrar un mensaje que diga “Su Hoja de Vida ha Sido Guardada Correctamente”.
+        Cuando se seleccione el texto del TextArea debe mostrar un mensaje diciendo que se ha seleccionado el texto.
+        Cambiar a mayúscula lo que se digita en las cajas de Texto de los ítems Nombres y Apellidos.
+        Borrar todo el contenido que se encuentre en los componentes del formulario y mostrar un mensaje que diga “Se ha restablecido el Texto” cuando se haga clic en el botón Restablecer.
+
+*/
+function load(){
+	alert("Bienvenido a su formato de Hoja de Vida");
+}
+function enviar(){
+	document.getElementById("enviar").innerHTML="Su Hoja de Vida ha Sido Guardada Correctamente";
+}
+function seleccionar(){
+	document.getElementById("seleccion").innerHTML="se ha seleccionado el texto";
+}
+function mayuscula(){
+	var texto=document.getElementById("seleccion");
+	texto.value=texto.value.toUpperCase();
+}
+function reset(){
+	document.getElementById("reset").innerHTML="Se ha restablecido el Texto";
+}
+</script>
+</html>

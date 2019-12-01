@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto Final - javascript</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/funciones.js"></script>
+</head>
+<body>
+		<h1>Registro de Estudiante</h1>
+		<label>Codigo :</label><br>
+		<input type="text" id="codigo"><br>
+		<label>Nombre :</label><br>
+		<input type="text" id="nombre"><br>
+		<label>Nota :</label><br>
+		<input type="text" id="nota"><br><br>
+		<button id="btn-registrar">Registrar Estudiante</button>
+		<button id="btn-promedio">Mostrar Promedio</button>
+		<button id="btn-mayor">Mostrar Nota Mayor</button>
+		<button id="btn-menor">Mostrar Nota Menor</button>
+	<h2>Listado de Estudiantes</h2>
+	<table id="listado">
+		<thead>
+			<tr>
+				<th>Codigo</th>
+				<th>Nombre</th>
+				<th>Nota</th>
+			</tr>
+		</thead>
+		<tbody id="resultado">
+			
+		</tbody>
+	</table>
+	<script type="text/javascript">
+		document.getElementById("btn-registrar").addEventListener("click", registrar);
+		document.getElementById("btn-promedio").addEventListener("click", promedio);
+		document.getElementById("btn-mayor").addEventListener("click", mayor);
+		document.getElementById("btn-menor").addEventListener("click", menor);
+		
+		var jsonText = '{"estudiante":[';
+		var jsonText2='';
+		var promedio =0;
+		var mayor = 0;
+		var menor = 0;
+		var nro_total;
+		var json; //json con lista de estudiantes
+
+		
+	</script>
+</body>
+</html>

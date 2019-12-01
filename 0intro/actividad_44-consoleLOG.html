@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> JS Project</title>
+		<script type="text/javascript" src="js/holaMundo.js"></script>
+	</head>
+<body>
+	<h1>Console.table</h1>
+</body>   
+<script>
+/*
+Crear un HTML con un script donde se definan 3 arreglos bidimensionales de 3x3. El primero se llamará alturas con los siguientes valores:
+
+    Primera fila: 1.70, 1.50, 1.48
+    Segunda fila: 1.34, 1.90, 2.0
+    Tercera fila: 1.55, 1.84, 1.28
+
+El segundo arreglo se llamará colores con los siguientes valores:
+
+    Primera fila: "Rojo", "Azul", "Verde"
+    Segunda fila: "Amarrillo", "Naranja", "Marron"
+    Tercera fila: "Rosado", "Violeta", "Gris"
+
+El tercer arreglo se llamará meses con los siguientes valores:
+
+    Primera fila: "Enero", "Febrero", "Mayo"
+    Segunda fila: "Junio", "Julio", "Agosto"
+    Tercera fila: "Septiembre", "Octubre", "Noviembre"
+
+La idea es mostrar los tres arreglos en la consola web del navegador utilizando el método console.table()
+
+*/
+	var alturas = [[1.70,1.50,1.48],[1.34,1.90,2.00],[1.55,1.84,1.28]];
+    var colores = [["Rojo","Azul","Verde"],["Amarillo","Naranja","Marron"],["Rosado","Violeta","Gris"]];
+    var meses = [["Enero","Febrero","Mayo"],["Junio","Julio","Agosto"],["Septiembre","Octubre","Noviembre"]];
+
+    console.table(alturas);
+    console.table(colores);
+    console.table(meses);
+</script>
+</html>
